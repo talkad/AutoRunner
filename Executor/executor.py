@@ -49,7 +49,7 @@ class Executor(ABC):
         pass
 
     @abstractmethod
-    def execute_project(self, project_path, compile_script):
+    def execute_project(self, project_path, compiler):
         '''
         Execture the project 
 

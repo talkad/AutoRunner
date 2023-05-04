@@ -9,8 +9,8 @@ class Executor_ScalSALE(Executor):
     def get_module_compiler(self, compiler):
         if compiler == 'GNU':
             return '/home/talkad/LIGHTBITS_SHARE/AutoRunner/ScalSALE_Scripts/set_gnu.sh'
-        elif compiler == 'INTEL':
-            return '/home/talkad/LIGHTBITS_SHARE/AutoRunner/ScalSALE_Scripts/set_intel.sh'
+        elif compiler == 'oneAPI':
+            return '/home/talkad/LIGHTBITS_SHARE/AutoRunner/ScalSALE_Scripts/set_oneapi.sh'
         else:
             return None
 
