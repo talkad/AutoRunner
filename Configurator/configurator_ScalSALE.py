@@ -15,12 +15,12 @@ class Configurator_ScalSALE(Configurator):
         super().__init__()
 
         # self.configurations = [(i, i**3) for i in range(1,7)]
-        self.configurations = [(i, i**3) for i in range(4,5)]
+        self.configurations = [(i, i**3) for i in range(4,7)]
 
         # strong
-        # self.configurations = [(np_axis, n_cores, ceil(n_cores/32), 479) for np_axis, n_cores in self.configurations]
+        # self.configurations = [(np_axis, n_cores, ceil(n_cores/32), 359) for np_axis, n_cores in self.configurations]
 
         # weak
-        self.configurations = [(np_axis, n_cores, ceil(n_cores/32), (np_axis*120 -1)) for np_axis, n_cores in self.configurations]
+        self.configurations = [(np_axis, n_cores, ceil(n_cores/32), (np_axis*160 -1)) for np_axis, n_cores in self.configurations]
 
         

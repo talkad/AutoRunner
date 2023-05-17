@@ -11,7 +11,7 @@ class Configurator(ABC):
         self.configurations = []
         self.optimizations = ['O0', 'O2']
         # self.compilers = ['gnu', 'intel', 'oneAPI']
-        self.compilers = ['oneAPI']
+        self.compilers = ['GNU']
         self.curr_idx = 0
 
     def initiate(self):
